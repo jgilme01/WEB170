@@ -1,3 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+Theme Name: JGilme WordPress Demo
+Author: JGilme
+Author URI: http://www.dohmang.com/
+Description: This is my demo theme for the WEB170 WordPress class.
+Version: 1.0
+
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+* { margin: 0; padding: 0; }
+
 H1  {
 	font-size : 16pt;
 	font-family : "Times New Roman", Times, serif;
