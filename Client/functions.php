@@ -14,4 +14,9 @@ function style_enqueue_style() {
 }
 add_action( 'wp_enqueue_scripts', 'style_enqueue_style' );
 
+//register menus
+register_nav_menus(array(
+'main-menu' => _( 'Main' ),
+));
+
 ?>
