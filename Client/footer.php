@@ -1,7 +1,7 @@
-   
-<footer>Copyright &copy; JGilme </footer>
+<?php wp_footer();?>   
 
-    <?php wp_footer();?>
+<footer>Copyright &copy; JGilme </footer>
+</div>
 
 </body>
 </html>

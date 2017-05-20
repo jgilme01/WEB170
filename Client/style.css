@@ -57,6 +57,7 @@ BODY  {
 	font-weight : normal;
 	font-style : normal;
 	padding: 20px 20px;
+	width:75%;
 }
 
 
@@ -149,12 +150,13 @@ A.cndark:active   {
 	
 }
 
-header, footer {
+footer {
     padding: 1em;
     color:darkgray
     background-color:bisque;
-    clear: left;
+    clear: both;
     text-align: center;
+
 }
 
 #navigation {
@@ -162,12 +164,17 @@ header, footer {
 	margin 0 auto;
 	padding: 10px 0;
 	color: antiquewhite;
+	text-align: center;
+	width:100%;
 }
 
 #navigation ul {
 	overflow: hidden;
 	padding: 10px 0;
 	margin: 4px;
+	text-align: center;
+	position: relative;
+	display: inline-block;
 }
 
 #navigation ul li {
@@ -177,19 +184,15 @@ header, footer {
 }
 
 #navigation ul li a {
-	color: aquamarine;
+	color: blue;
 }
 
 #navigation ul li ul.sub-menu {
 display: none;
 }
 
-#navigation ul li.current-menu-item a {
-color: #EBB700; /* and use bright gold */
-}
-
 #navigation ul li.current-menu-item a, #navigation ul li.current-menu-parent a {
-color: #EBB700; /* and use bright gold */
+color: darkblue; /* and use bright gold */
 }
 
 #sub-navigation {
@@ -198,7 +201,15 @@ color: #EBB700; /* and use bright gold */
     position: fixed;
     top: 0;
     right: 0;
-    padding-top: 60px;
+    padding: 2em 0 0 1em;
+	background-image: url('images/137_steve-203x173.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+	
+}
+
+.sub-navigation-title {
+	color: skyblue;
 }
 
 //medium viewport
