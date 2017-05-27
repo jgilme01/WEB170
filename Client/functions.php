@@ -19,4 +19,10 @@ register_nav_menus(array(
 'main-menu' => _( 'Main' ),
 ));
 
+//Post Thumbnails
+add_theme_support( 'post-thumbnails' );
+
+//Page Excerpts
+add_post_type_support( 'page', 'excerpt' );
+
 ?>

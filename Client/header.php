@@ -47,6 +47,7 @@ function preloadImages() {
     
 </HEAD>
 <BODY <?php body_class();?> bgcolor=#FFFFFF topmargin=0 leftmargin=0 marginwidth=0 marginheight=0 background="<?php bloginfo('template_directory');?>images/expandbg.gif"><script language="JavaScript">preloadImages();</script>
+<div class="background">
 	
 <div id="navigation">
 				

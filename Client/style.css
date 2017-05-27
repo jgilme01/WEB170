@@ -14,6 +14,14 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 * { margin: 0; padding: 0; }
 
+.background {
+	background-image: url('images/background.jpg');
+	max-height:100%;
+	/*background-size: 100% 100%;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 H1  {
 	font-size : 16pt;
 	font-family : "Times New Roman", Times, serif;
@@ -23,13 +31,13 @@ H1  {
 }
 
 
-H2  {
+/*H2  {
 	font-size : 14pt;
 	font-family : "Times New Roman", Times, serif;
 	font-weight : bold;
 	font-style : normal;
 	color : black;
-}
+}*/
 
 
 H3  {
@@ -56,8 +64,7 @@ BODY  {
 	font-family : Arial, Verdana, sans-serif;
 	font-weight : normal;
 	font-style : normal;
-	padding: 20px 20px;
-	width:75%;
+	width:80%;
 }
 
 
@@ -79,14 +86,14 @@ P  {
 }
 
 
-A:link  {
+/*A:link  {
 	font-size : 10pt;
 	font-family : Arial, Verdana, sans-serif;
 	font-weight : normal;
 	font-style : normal;
 	color : blue;
 }
-
+*/
 
 A:hover  {
 	font-size : 10pt;
@@ -212,11 +219,40 @@ color: darkblue; /* and use bright gold */
 	color: skyblue;
 }
 
+article.post {
+	/*line-height: 1.5em;*/
+}
+
+#content small {
+	clear:both;
+}
+
+#content div#excerpt{
+	margin: 1em 0 0 0;
+}
+
+#content article.post-excerpt {
+	overflow: hidden;
+	margin: 0 0 2em 0;
+}
+
+img.wp-post-image {}
+img.attachment-thumbnail {
+	float:left;
+	margin: 0 1em 0 0;
+	}
+img.attachment-medium {}
+img.attachment-large {
+	margin: 1em 0 1em 0;
+}
+img.attachment-full {}
+
 //medium viewport
 @media screen and (max-width: 600px) {
 
 #navigation ul li ul.sub-menu {
 display: block;
 }
+
 
 }

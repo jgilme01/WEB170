@@ -2,6 +2,6 @@
 
 <footer>Copyright &copy; JGilme </footer>
 </div>
-
+</div>
 </body>
 </html>
