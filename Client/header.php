@@ -4,7 +4,8 @@
 
 <HTML>
 <HEAD>
-<TITLE><?php bloginfo('description');?> : <?php bloginfo('name');?>Rolfing Seattle</TITLE>
+<title><?php get_my_title_tag(); ?></title>
+<meta name="description" content="<?php echo strip_tags(get_the_excerpt()); ?>" />
 <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>"><link rel="stylesheet" media="all" href="scripts/icwebsiteelement.css">
 <meta name="robots" content="index, follow"><meta name="description" content="Rolfing Seattle, Stephen Evanko, PhD, LMP is a Certified Rolfer in North Seattle."><meta name="keywords" content="Rolfing,structural integration,repetitive stress injury,Seattle,Northwest,lower back pain,posture,chronic pain,chronic fatigue,syndrome,self improvement,pain relief,rheumatoid arthritis,chronic fatigue syndrome,injury,low back pain,alignment,back injury,carpal tunnel syndrome,ergonomics,body work,chronic back pain,sports injury,back pain,joint pain,massage therapy,knee injury,holistic health,shoulder injury,fascia,tmj,arthritis,carpal tunnel,scoliosis"><META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"><META HTTP-EQUIV="PRAGMA" CONTENT="NO-CACHE">
 <script language="JavaScript" src="<?php bloginfo('template_directory');?>../scripts/ic_globals_published.js"></script><script language="JavaScript" src="<?php bloginfo('template_directory');?>scripts/user.js"></script><script language="JavaScript" src="<?php bloginfo('template_directory');?>scripts/photoalbum.js"></script>
