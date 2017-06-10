@@ -19,5 +19,8 @@
 	<blockquote class="side-quote"><?php echo get_post_meta($post->ID, 'Quote', true);//The actual quote ?></blockquote>
 	<?php endif;
 	//end custom field quote ?>
-	</div>
+	
+
+<?php dynamic_sidebar( 'Sidebar 1' ); ?>
+</div>
 	

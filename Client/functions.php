@@ -64,4 +64,17 @@ function get_my_title_tag() {
 
 add_post_type_support( 'page', 'excerpt' );
 
+register_sidebar($args);
+$args = array(
+	'name' => __('Sidebar 1'),
+	//'description' => 'a sidebar',
+	'before_widget' => '<div class="widget">',
+	'after_widget' => '</div>',
+	'before_title' => '<h3>',
+    'after_title' => '</h3>'
+
+);
+
+
+
 ?>
