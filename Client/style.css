@@ -216,7 +216,33 @@ color: darkblue; /* and use bright gold */
 }
 
 .sub-navigation-title {
-	color: skyblue;
+	color: blue;
+}
+
+.side-quote {
+  margin: 65% 0 0 40%;
+  quotes: "\201C""\201D""\2018""\2019";
+	color: black;
+}
+.side-quote:before {
+  color: blue;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.side-quote:after {
+	color: blue;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+.side-quote p {
+  display: inline;
 }
 
 article.post {

@@ -13,11 +13,11 @@
 	</ul>
 	<?php endif;
 	
-	if (!(is_page())) : ?>
-	<h2 class="sub-navigation-title">
-	<?php echo get_the_title($post->post_parent);?>
-	</h2>
-	<ul class="sub-navigation-items">
-		<?php wp_list_categories(array('title_li' => __(''))); // ...list the categories with no title ?></ul>
-<?php endif; ?>
+	
+	if(get_post_meta($post->ID, 'Quote', true)):
+	//check to see if there is a quote, in custom field on page?>
+	<blockquote class="side-quote"><?php echo get_post_meta($post->ID, 'Quote', true);//The actual quote ?></blockquote>
+	<?php endif;
+	//end custom field quote ?>
 	</div>
+	
